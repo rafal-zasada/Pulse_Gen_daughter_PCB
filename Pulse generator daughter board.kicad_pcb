@@ -22346,10 +22346,10 @@
 		(layer "Edge.Cuts")
 		(uuid "e084a2b6-4c61-4b79-a7c1-e8e12ad0cecd")
 	)
-	(gr_text "C20 is EMI suppression cap"
-		(at 129.46 151.22 0)
-		(layer "F.Cu")
-		(uuid "489bf7ff-c961-4e4d-ac49-5bafbe9be6a7")
+	(gr_text "Pulse generator / voltage meter / TC temp. meter"
+		(at 166.46 46.52 270)
+		(layer "F.SilkS")
+		(uuid "416d06cb-b486-4263-8c98-f09764470669")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -25776,22 +25776,6 @@
 		(uuid "fe1af4ee-7452-4ff9-95c8-64f843529657")
 	)
 	(segment
-		(start 163.76 119.12)
-		(end 165.66 117.22)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 63)
-		(uuid "2faef1b8-bec9-4347-bfd8-ee5cff147a2f")
-	)
-	(segment
-		(start 165.66 117.22)
-		(end 165.66 51.79)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 63)
-		(uuid "43fd5569-57e8-4bfb-a3f7-6403f99c5fd6")
-	)
-	(segment
 		(start 141.36 132.22)
 		(end 140.475 133.105)
 		(width 0.25)
@@ -25800,20 +25784,28 @@
 		(uuid "444fff6c-d0c4-4743-813b-5d2136729014")
 	)
 	(segment
-		(start 155.085 115.645)
-		(end 158.56 119.12)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 63)
-		(uuid "4d5ade32-0970-4a90-b234-bfa0c43c5d74")
-	)
-	(segment
 		(start 153.785 115.645)
 		(end 155.085 115.645)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 63)
-		(uuid "75bade8e-caaf-4ac2-b7ad-2f83af62773e")
+		(uuid "5d7208bb-0e19-49c1-bec4-f31388caa77a")
+	)
+	(segment
+		(start 155.085 115.645)
+		(end 157.76 118.32)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 63)
+		(uuid "66ea1152-e178-4ca5-a013-ab8f079e3fe2")
+	)
+	(segment
+		(start 164.56 118.32)
+		(end 165.66 117.22)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 63)
+		(uuid "7aca8025-1ff2-4e69-b2f3-c5fd61c7222b")
 	)
 	(segment
 		(start 165.66 51.79)
@@ -25821,7 +25813,7 @@
 		(width 0.25)
 		(layer "F.Cu")
 		(net 63)
-		(uuid "795954c6-a40e-49b0-99fc-5c7eba9b70f9")
+		(uuid "94328afb-8419-47c9-bd26-95ccf765fdef")
 	)
 	(segment
 		(start 140.475 133.105)
@@ -25832,12 +25824,20 @@
 		(uuid "b382d935-8b54-4308-973d-a0e81d92b070")
 	)
 	(segment
-		(start 158.56 119.12)
-		(end 163.76 119.12)
+		(start 157.76 118.32)
+		(end 164.56 118.32)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 63)
-		(uuid "bc677ae0-77dd-46eb-b266-92635123f195")
+		(uuid "b4711184-942a-424e-8c42-c9054b4e3c3b")
+	)
+	(segment
+		(start 165.66 117.22)
+		(end 165.66 51.79)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 63)
+		(uuid "fe760807-196d-489c-a517-1b8118884ddd")
 	)
 	(via
 		(at 141.36 132.22)
