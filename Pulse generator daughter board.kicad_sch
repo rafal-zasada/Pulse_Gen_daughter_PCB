@@ -7194,6 +7194,12 @@
 		(uuid "827f482d-418e-4463-86be-7e39cb62c461")
 	)
 	(junction
+		(at 48.26 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8371662d-f172-42e0-be49-f1edfd82d835")
+	)
+	(junction
 		(at 350.52 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7282,6 +7288,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba7ef0fd-eef8-4eb8-aa71-e02b2d2ac9b0")
+	)
+	(junction
+		(at 30.48 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "baccbd6a-21a4-49e8-b505-3aea9054ad4c")
 	)
 	(junction
 		(at 52.07 186.69)
@@ -8331,6 +8343,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 196.85) (xy 30.48 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "285ebfa7-9578-4dc6-88f5-e62a5c4b5214")
+	)
+	(wire
+		(pts
 			(xy 259.08 80.01) (xy 269.24 80.01)
 		)
 		(stroke
@@ -8828,6 +8850,16 @@
 			(type default)
 		)
 		(uuid "4dec91d1-9302-4ad4-ace9-4a627cf35521")
+	)
+	(wire
+		(pts
+			(xy 48.26 196.85) (xy 48.26 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f37433e-4b91-43da-94e6-4c217e8594a7")
 	)
 	(wire
 		(pts
@@ -9738,6 +9770,16 @@
 			(type default)
 		)
 		(uuid "9dcaa039-d2a9-49be-9ed6-b0fafc3d9d7f")
+	)
+	(wire
+		(pts
+			(xy 35.56 196.85) (xy 30.48 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9def11fe-88c4-49d9-81bd-0b1a9903c82c")
 	)
 	(wire
 		(pts
@@ -10661,6 +10703,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 196.85) (xy 48.26 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2365582-18b3-4151-b781-9608a4c118e7")
+	)
+	(wire
+		(pts
 			(xy 323.85 80.01) (xy 328.93 80.01)
 		)
 		(stroke
@@ -11088,16 +11140,6 @@
 			(type default)
 		)
 		(uuid "fed2d27f-6df3-434d-96eb-2f9e75802250")
-	)
-	(text "Add resistors, capacitor on layout for EMI\nAdd switches\nrefill planes"
-		(exclude_from_sim no)
-		(at 264.414 228.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "11bf53e8-adee-4ca2-a423-61617ddae055")
 	)
 	(text "Vin1 supplies STM32"
 		(exclude_from_sim no)
@@ -15821,6 +15863,74 @@
 			(project "Pulse generator daughter board"
 				(path "/1303051a-0047-4158-8a91-4ef629dc783f"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Rafal_Library:C")
+		(at 39.37 196.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8fa9f183-ac4f-4c56-80ef-24158e5d1579")
+		(property "Reference" "C20"
+			(at 39.37 189.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EMI cap"
+			(at 39.37 191.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 43.18 195.8848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 39.37 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dda90938-0b29-4d3f-bc1e-47ef5c5e97a6")
+		)
+		(pin "2"
+			(uuid "a7d86ae6-5adb-4c7f-9879-e01f5c8bbfdd")
+		)
+		(instances
+			(project "Pulse generator daughter board"
+				(path "/1303051a-0047-4158-8a91-4ef629dc783f"
+					(reference "C20")
 					(unit 1)
 				)
 			)
